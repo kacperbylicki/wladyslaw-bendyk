@@ -1,7 +1,6 @@
 <template>
   <section class="p-2">
-    <NavBar />
-    <section class="grid justify-center grid-flow-row w-auto p-2">
+    <section class="grid justify-center grid-flow-row w-auto p-6">
       <PhotoCard image="https://placeimg.com/400/225/arch" image-alt="profile-photo" />
       <SocialMediaCard
         name="facebook"
@@ -27,13 +26,11 @@
 
 <script>
 import FacebookIcon from "./components/icons/FacebookIcon.vue";
-import NavBar from "./components/NavBar.vue";
 import PhotoCard from "./components/PhotoCard.vue";
 import SocialMediaCard from "./components/SocialMediaCard.vue";
 
 export default {
   components: {
-    NavBar,
     PhotoCard,
     SocialMediaCard,
   },
