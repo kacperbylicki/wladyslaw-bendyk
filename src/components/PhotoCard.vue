@@ -1,5 +1,5 @@
 <template>
-  <div class="card w-96 bg-base-100 shadow-xl image-full">
+  <div class="card w-auto bg-base-100 shadow-xl image-full">
     <figure><img :src="image" :alt="imageAlt" /></figure>
   </div>
 </template>

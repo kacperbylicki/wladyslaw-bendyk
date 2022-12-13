@@ -1,26 +1,24 @@
 <template>
-  <section class="p-2">
-    <section class="grid justify-center grid-flow-row w-auto p-6">
-      <PhotoCard image="https://placeimg.com/400/225/arch" image-alt="profile-photo" />
-      <SocialMediaCard
-        name="facebook"
-        :url="facebook.url"
-        :icon="facebook.icon"
-        :image="facebook.image"
-      />
-      <SocialMediaCard
-        name="instagram"
-        :url="instagram.url"
-        :icon="instagram.icon"
-        :image="instagram.image"
-      />
-      <SocialMediaCard
-        name="telegram"
-        :url="telegram.url"
-        :icon="telegram.icon"
-        :image="telegram.image"
-      />
-    </section>
+  <section class="grid justify-center grid-flow-row w-auto p-4">
+    <PhotoCard image="https://placeimg.com/400/225/arch" image-alt="profile-photo" />
+    <SocialMediaCard
+      name="facebook"
+      :url="facebook.url"
+      :icon="facebook.icon"
+      :image="facebook.image"
+    />
+    <SocialMediaCard
+      name="instagram"
+      :url="instagram.url"
+      :icon="instagram.icon"
+      :image="instagram.image"
+    />
+    <SocialMediaCard
+      name="telegram"
+      :url="telegram.url"
+      :icon="telegram.icon"
+      :image="telegram.image"
+    />
   </section>
 </template>
 
