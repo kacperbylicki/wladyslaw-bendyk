@@ -1,5 +1,5 @@
 <template>
-  <section class="grid justify-center grid-flow-row w-auto p-4">
+  <section class="grid justify-center grid-flow-row w-auto p-6">
     <PhotoCard image="https://placeimg.com/400/225/arch" image-alt="profile-photo" />
     <SocialMediaCard
       name="facebook"
