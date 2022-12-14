@@ -26,22 +26,22 @@ export default {
         {
           name: "instagram",
           url: "https://www.instagram.com/wwwladyslawww",
-          image: "public/insta-pattern.svg",
+          image: "/wladyslaw-bendyk/public/insta-pattern.svg",
         },
         {
           name: "facebook",
           url: "https://www.facebook.com/wwwladyslawww",
-          image: "public/fb-pattern.svg",
+          image: "/wladyslaw-bendyk/public/fb-pattern.svg",
         },
         {
           name: "telegram",
           url: "https://t.me/Wladyslaw_Bendyk",
-          image: "public/telegram-pattern.svg",
+          image: "/wladyslaw-bendyk/public/telegram-pattern.svg",
         },
         {
           name: "whatsapp",
           url: "https://wa.me/qr/XGBKTODZVY7CM1",
-          image: "public/whatsapp-pattern.svg",
+          image: "/wladyslaw-bendyk/public/whatsapp-pattern.svg",
         },
       ],
     };
