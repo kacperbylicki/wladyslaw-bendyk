@@ -1,6 +1,6 @@
 <template>
-  <div class="card w-80 max-h-48 bg-base-100 shadow-xl image-full">
-    <figure><img class="w-80 object-cover" :src="image" :alt="`${name}-image`" /></figure>
+  <div class="card w-80 bg-base-100 shadow-xl image-full">
+    <figure><img class="w-80 max-h-48 object-cover" :src="image" :alt="`${name}-image`" /></figure>
     <div class="card-body">
       <h2 class="card-title"></h2>
       <p></p>
