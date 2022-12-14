@@ -14,7 +14,7 @@ export default {
     },
     imageAlt: {
       type: String,
-      default: "default-image-alt",
+      default: "default-image",
     },
   },
 };
