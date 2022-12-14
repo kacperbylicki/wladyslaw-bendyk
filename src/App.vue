@@ -32,22 +32,22 @@ export default {
         {
           name: "instagram",
           url: "https://www.instagram.com/wwwladyslawww",
-          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/insta-pattern.svg",
+          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/astronaut.webp",
         },
         {
           name: "facebook",
           url: "https://www.facebook.com/wwwladyslawww",
-          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/fb-pattern.svg",
+          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/astronaut-2.webp",
         },
         {
           name: "telegram",
           url: "https://t.me/Wladyslaw_Bendyk",
-          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/telegram-pattern.svg",
+          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/astronaut-3.webp",
         },
         {
           name: "whatsapp",
           url: "https://wa.me/qr/XGBKTODZVY7CM1",
-          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/whatsapp-pattern.svg",
+          image: "https://kacperbylicki.github.io/wladyslaw-bendyk/astronaut-4.webp",
         },
       ],
     };
