@@ -1,16 +1,19 @@
 <template>
-  <section class="grid justify-center grid-flow-row w-auto p-6">
-    <PhotoCard
-      image="https://kacperbylicki.github.io/wladyslaw-bendyk/portrait.webp"
-      image-alt="portrait-photo"
-    />
-    <SocialMediaCard
-      v-for="(item, key) in socialMediaItems"
-      :key="key"
-      :name="item.name"
-      :url="item.url"
-      :image="item.image"
-    />
+  <section class="grid justify-center grid-flow-auto w-auto p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <PhotoCard
+        class="row-span-2"
+        image="https://kacperbylicki.github.io/wladyslaw-bendyk/portrait.webp"
+        image-alt="portrait-photo"
+      />
+      <SocialMediaCard
+        v-for="(item, key) in socialMediaItems"
+        :key="key"
+        :name="item.name"
+        :url="item.url"
+        :image="item.image"
+      />
+    </div>
   </section>
 </template>
 
