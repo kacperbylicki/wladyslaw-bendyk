@@ -1,6 +1,9 @@
 <template>
   <section class="grid justify-center grid-flow-row w-auto p-6">
-    <PhotoCard image="public/portrait.webp" image-alt="portrait-photo" />
+    <PhotoCard
+      image="https://kacperbylicki.github.io/wladyslaw-bendyk/portrait.webp"
+      image-alt="portrait-photo"
+    />
     <SocialMediaCard
       v-for="(item, key) in socialMediaItems"
       :key="key"
